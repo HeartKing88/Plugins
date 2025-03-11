@@ -2,9 +2,14 @@
 
 from math import ceil
 
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton, InlineQueryResultPhoto, InlineKeyboardMarkup
 
 from Pbxbot.core import ENV, Symbols, db, Config
+from Pbxbot.functions.templates import help_template
+
+from pyrogram import Client, filters
+from Pbxbot.core.clients import Pbxbot
+bot = Pbxbot.bot
 
 
 def gen_inline_keyboard(collection: list, row: int = 2) -> list[list[InlineKeyboardButton]]:
@@ -110,3 +115,18 @@ def start_button() -> list[list[InlineKeyboardButton]]:
         InlineKeyboardButton("🕊️⃝‌ᴘʙx ❤️ᥫ᭡፝֟፝֟" ,  url="https://t.me/ll_THE_BAD_BOT_ll"),
     ]
     ]
+
+@bot.on_inline_query(filters.regex("help_menu"))
+async def inline_help(client: Client, inline_query):
+    buttons, _ = await gen_inline_help_buttons(0, sorted(Config.CMD_MENU.keys()))
+    help_text = await help_template("Owner Name", (len(Config.CMD_MENU), len(Config.BOT_CMD_MENU)), (0, 1))
+    results = [
+        InlineQueryResultPhoto(
+            id="help_menu",
+            photo_url="https://files.catbox.moe/b2b5a3.jpg",
+            thumb_url="https://files.catbox.moe/b2b5a3.jpg",
+            caption=help_text,
+            reply_markup=InlineKeyboardMarkup(buttons),
+        )
+    ]
+    await inline_query.answer(results, cache_time=0)
