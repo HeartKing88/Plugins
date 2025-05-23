@@ -70,7 +70,7 @@ async def repo(client: Client, message: Message):
 async def inline_repo(client: Client, inline_query):
     buttons = [
         [
-            InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/Badhacker98/PBX_2.0/fork")
+            InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/Pbx-Official/PBX_2.0/fork")
         ],
         [
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/HEROKUBIN_01"),
@@ -86,7 +86,7 @@ async def inline_repo(client: Client, inline_query):
             thumb_url="https://files.catbox.moe/y3evsv.jpg",  # Thumbnail
             title="Repository Information",
             description="Click to view the repository details",
-            caption="📌 **Repo:**\n🔗 [Click Here](https://github.com/Badhacker98/PBX_2.0/fork)",
+            caption="📌 **Repo:**\n🔗 [Click Here](https://github.com/Pbx-Official/PBX_2.0/fork)",
             reply_markup=reply_markup
         )
     ]
@@ -351,4 +351,4 @@ HelpMenu("help").add(
     "Load the mentioned plugin.",
     "load alive",
     "This will load all the commands of that plugin to the bot that was previously unloaded permanently.",
-    )
+        )
