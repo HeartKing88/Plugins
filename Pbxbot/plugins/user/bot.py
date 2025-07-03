@@ -59,7 +59,7 @@ async def inline_alive(client: Client, inline_query):
     buttons = [
         [
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/PBX_CHAT"),
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/HEROKUBIN_01"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/PBX_UPDATE"),
         ],
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
