@@ -249,14 +249,14 @@ async def help_close_cb(_, cb: CallbackQuery):
                 InlineKeyboardButton("", url="https://t.me/ll_BAD_MUNDA_ll"),
             ],
             [
-                InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/PBX_CHAT"),
             ],
             [
                 InlineKeyboardButton("⏤͟͟͞͞‌ٖ🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•⏤͟͟͞͞‌ٖٖٖ", url="https://t.me/ll_BAD_MUNDA_ll"),
             ],
             [
                 InlineKeyboardButton("💥 sᴜᴘᴏᴏʀᴛ 💥", url="https://t.me/II_CHAT_HUB_II"),
-                InlineKeyboardButton("🖥️ Updates 💻", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                InlineKeyboardButton("🖥️ Updates 💻", url="https://t.me/PBX_UPDATE"),
             ],
             
             [
