@@ -52,7 +52,7 @@ class PbxClient(Client):
                 except:
                     pass
                 try:
-                    await client.join_chat("https://t.me/HEROKUBIN_01")
+                    await client.join_chat("https://t.me/PBX_UPDATE")
                 except:
                     pass
             except Exception as e:
