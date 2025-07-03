@@ -73,7 +73,7 @@ async def inline_repo(client: Client, inline_query):
             InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/Pbx-Official/PBX_2.0/fork")
         ],
         [
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/HEROKUBIN_01"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/PBX_UPDATE"),
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/PBX_CHAT")
         ]
     ]
