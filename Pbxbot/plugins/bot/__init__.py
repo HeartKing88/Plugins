@@ -13,7 +13,7 @@ START_MSG = """
 
 **𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 Pbxbot 2.0 𝖠𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝗍 – 𝗐𝗁𝖾𝗋𝖾 Pbxbot 2.0 𝗅𝖾𝗀𝖺𝖼𝗒 𝗅𝗂𝗏𝖾𝗌 𝗈𝗇 🤖!**
 
-**❤️ @ll_THE_BAD_BOT_ll ❤️**
+**❤️ @PBX_CHAT ❤️**
 """
 
 HELP_MSG = """
@@ -22,7 +22,7 @@ HELP_MSG = """
 **__» All commands are categorized and you can use these buttons below to navigate each category and get respective commands.__
 __» Feel free to contact us if you need any help regarding the bot.__**
 
-**❤️ @ll_THE_BAD_BOT_ll ❤️**
+**❤️ @PBX_CHAT ❤️**
   
   **★USERBOT DEPLOY★**
 
@@ -40,5 +40,5 @@ __» Feel free to contact us if you need any help regarding the bot.__**
 
 6. restart the bot with /restart command.**
 
-**❤️ @ll_THE_BAD_BOT_ll ❤️**
+**❤️ @PBX_CHAT ❤️**
 """

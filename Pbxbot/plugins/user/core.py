@@ -337,7 +337,7 @@ HelpMenu("help").add(
     "installall",
     "<channel username>",
     "Install all the plugins from the mentioned channel.",
-    "installall @ll_THE_BAD_BOT_ll",
+    "installall @PBX_CHAT",
     "Do not install plugins from untrusted sources, they can be a malware. We're not responsible for any damage caused by them.",
 ).add(
     "unload",

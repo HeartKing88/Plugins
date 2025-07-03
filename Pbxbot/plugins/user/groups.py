@@ -369,12 +369,12 @@ HelpMenu("groups").add(
     "chatadmins",
     "<chat id (optional)>",
     "Get the list of admins of mentioned chat.",
-    "chatadmins @ll_THE_BAD_BOT_ll",
+    "chatadmins @PBX_CHAT",
 ).add(
     "chatbots",
     "<chat id (optional)>",
     "Get the list of bots of mentioned chat.",
-    "chatbots @ll_THE_BAD_BOT_ll",
+    "chatbots @PBX_CHAT",
 ).add(
     "id",
     "<reply to message (optional)>",

@@ -546,37 +546,37 @@ HelpMenu("superpowers").add(
     "gpromote",
     "<reply/username/id> <reason (optional)>",
     "Promote a user in all the chats where you have add admin right.",
-    "gpromote @ll_THE_BAD_BOT_ll Why not?",
+    "gpromote @PBX_CHAT Why not?",
 ).add(
     "gdemote",
     "<reply/username/id> <reason (optional)>",
     "Demotes a user in all the chats where you are on top level from the user.",
-    "gdemote @ll_THE_BAD_BOT_ll Why?",
+    "gdemote @PBX_CHAT Why?",
 ).add(
     "gban",
     "<reply/username/id> <reason (optional)>",
     "Ban a user in all the chats where you have ban rights.",
-    "gban @ll_THE_BAD_BOT_ll :)",
+    "gban @PBX_CHAT :)",
 ).add(
     "ungban",
     "<reply/username/id>",
     "Unban a user in all the chats where you have ban rights.",
-    "ungban @ll_THE_BAD_BOT_ll",
+    "ungban @PBX_CHAT",
 ).add(
     "gkick",
     "<reply/username/id> <reason (optional)>",
     "Kick a user in all the chats where you have ban rights.",
-    "gkick @ll_THE_BAD_BOT_ll :)",
+    "gkick @PBX_CHAT :)",
 ).add(
     "gmute",
     "<reply/username/id> <reason (optional)>",
     "Mute a user in all the chats where you have mute rights.",
-    "gmute @ll_THE_BAD_BOT_ll :)",
+    "gmute @PBX_CHAT :)",
 ).add(
     "ungmute",
     "<reply/username/id>",
     "Unmute a user in all the chats where you have mute rights.",
-    "ungmute @ll_THE_BAD_BOT_ll",
+    "ungmute @PBX_CHAT",
 ).add(
     "gbanlist", None, "List all the gbanned users.", "gbanlist"
 ).add(

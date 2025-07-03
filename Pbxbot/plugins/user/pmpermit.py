@@ -242,23 +242,23 @@ HelpMenu("pmpermit").add(
     "block",
     "<reply to user>/<userid/username>",
     "Block a user from pm-ing you.",
-    "block @ll_THE_BAD_BOT_ll",
+    "block @PBX_CHAT",
 ).add(
     "unblock",
     "<reply to user>/<userid/username>",
     "Unblock a user from pm-ing you.",
-    "unblock @ll_THE_BAD_BOT_ll",
+    "unblock @PBX_CHAT",
 ).add(
     "allow",
     "<reply to user>/<userid/username>",
     "Allow a user to pm you.",
-    "allow @ll_THE_BAD_BOT_ll",
+    "allow @PBX_CHAT",
     "An alias of 'approve' is also available.",
 ).add(
     "disallow",
     "<reply to user>/<userid/username>",
     "Disallow a user to pm you.",
-    "disallow @ll_THE_BAD_BOT_ll",
+    "disallow @PBX_CHAT",
     "An alias of 'disapprove' is also available.",
 ).add(
     "allowlist",
