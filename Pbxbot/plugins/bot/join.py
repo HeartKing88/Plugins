@@ -30,7 +30,7 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("๏Jᴏɪɴ¹๏", url=f"https://t.me/ll_THE_BAD_BOT_ll"),
+                                InlineKeyboardButton("๏Jᴏɪɴ¹๏", url=f"https://t.me/PBX_CHAT"),
                             ],
                             [
                             InlineKeyboardButton("๏Jᴏɪɴ²๏", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
