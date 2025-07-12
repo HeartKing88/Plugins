@@ -1,7 +1,7 @@
 class First:
     ALIVE = "`ᴘʙx 2.0 ɪꜱ ᴀʟɪᴠᴇ`"
     REPO = """
-ʀᴇᴘᴏ [ᴄɪᴄᴋ ʜᴇᴀʀᴇ](https://github.com/Badhacker98/PBX_2.0/fork)
+ʀᴇᴘᴏ [ᴄɪᴄᴋ ʜᴇᴀʀᴇ](https://gitlab.com/Badhacker98/PBX_2.0/-/forks/new)
 
 
  ᴘᴏᴡᴇʀᴇᴅ ʙʏ [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/ll_BAD_MUNDA_ll)"""

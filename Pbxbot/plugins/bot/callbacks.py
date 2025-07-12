@@ -245,7 +245,7 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("⚜️ ᴅᴇᴘʟᴏʏ ⚜️ ", url="https://github.com/Badhacker98/PBX_2.0/fork"),
+                InlineKeyboardButton("⚜️ ᴅᴇᴘʟᴏʏ ⚜️ ", url="https://gitlab.com/Badhacker98/PBX_2.0/-/forks/new"),
                 InlineKeyboardButton("", url="https://t.me/ll_BAD_MUNDA_ll"),
             ],
             [
