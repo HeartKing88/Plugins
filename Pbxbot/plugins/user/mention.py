@@ -13,7 +13,7 @@ def get_arg(message: Message):
         return ""
     return " ".join(split[1:])
 
-@on_message("utag", allow_stan=True)
+@on_message("mention", allow_stan=True)
 async def mentionall(client: Client, message: Message):
     chat_id = message.chat.id
     direp = message.reply_to_message
