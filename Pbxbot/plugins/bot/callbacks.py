@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, Pbxbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @PBX_CHAT",
+            "You are not authorized to use this bot. \n\n</> @APNA_SYSTEM",
             show_alert=True,
         )
         return False
@@ -79,7 +79,7 @@ async def bot_help_cmd_cb(_, cb: CallbackQuery):
     result += (
         f"\n\n**{Symbols.arrow_right} 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** __{cmd_dict['description']}__"
     )
-    result += f"\n\n**<\> @PBX_CHAT ❤️**"
+    result += f"\n\n**<\> @APNA_SYSTEM ❤️**"
 
     buttons = [
         [
@@ -189,7 +189,7 @@ async def help_cmd_cb(_, cb: CallbackQuery):
     if cmd_dict["note"]:
         result += f"\n\n**{Symbols.arrow_right} 𝖭𝗈𝗍𝖾:** __{cmd_dict['note']}__"
 
-    result += f"\n\n**<\> @PBX_CHAT ❤️**"
+    result += f"\n\n**<\> @APNA_SYSTEM ❤️**"
 
     buttons = [
         [
@@ -246,17 +246,17 @@ async def help_close_cb(_, cb: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("⚜️ ᴅᴇᴘʟᴏʏ ⚜️ ", url="https://gitlab.com/Badhacker98/PBX_2.0/-/forks/new"),
-                InlineKeyboardButton("", url="https://t.me/ll_BAD_MUNDA_ll"),
+                InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/Webtech_Vivan"),
             ],
             [
-                InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/PBX_CHAT"),
+                InlineKeyboardButton("sʏsᴛᴇᴍ sᴜᴘᴘᴏʀᴛ", url="https://t.me/APNA_SYSTEM"),
             ],
             [
-                InlineKeyboardButton("⏤͟͟͞͞‌ٖ🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•⏤͟͟͞͞‌ٖٖٖ", url="https://t.me/ll_BAD_MUNDA_ll"),
+                InlineKeyboardButton("BAD", url="https://t.me/ll_BAD_MUNDA_ll"),
             ],
             [
-                InlineKeyboardButton("💥 sᴜᴘᴏᴏʀᴛ 💥", url="https://t.me/PBX_CHAT"),
-                InlineKeyboardButton("🖥️ Updates 💻", url="https://t.me/PBX_UPDATE"),
+                InlineKeyboardButton("💥 sᴜᴘᴏᴏʀᴛ 💥", url="https://t.me/APNA_SYSTEM"),
+                InlineKeyboardButton("🖥️ Updates 💻", url="https://t.me/Exampurrs"),
             ],
             
             [
@@ -270,7 +270,7 @@ async def help_close_cb(_, cb: CallbackQuery):
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-            "**❤️ @PBX_CHAT ❤️**",
+            "**❤️ @APNA_SYSTEM ❤️**",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
