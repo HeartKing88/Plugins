@@ -109,10 +109,10 @@ def start_button() -> list[list[InlineKeyboardButton]]:
             InlineKeyboardButton("🗡️ sᴏᴜʀᴄᴇ 🗡️", "help_data:source"),
             ],
         [
-            InlineKeyboardButton("📌 DEPLOY 📌", url="https://t.me/PBX_CHAT"),
+            InlineKeyboardButton("📌 DEPLOY 📌", url="https://t.me/APNA_SYSTEM"),
         ],
         [
-        InlineKeyboardButton("🕊️⃝‌ᴘʙx ❤️ᥫ᭡፝֟፝֟" ,  url="https://t.me/PBX_CHAT"),
+        InlineKeyboardButton("Owner" ,  url="https://t.me/Webtech_Vivan"),
     ]
     ]
 
@@ -123,8 +123,8 @@ async def inline_help(client: Client, inline_query):
     results = [
         InlineQueryResultPhoto(
             id="help_menu",
-            photo_url="https://files.catbox.moe/b2b5a3.jpg",
-            thumb_url="https://files.catbox.moe/b2b5a3.jpg",
+            photo_url="https://i.ibb.co/6JqS5c9R/21e701f97d12.jpg",
+            thumb_url="https://i.ibb.co/6JqS5c9R/21e701f97d12.jpg",
             caption=help_text,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
